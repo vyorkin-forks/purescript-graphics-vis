@@ -4,11 +4,19 @@ A library for interactively creating graphics visualizations in the browser usin
 
 Note: Internet Explorer and Safari are [not currently supported](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia#Browser_compatibility).
 
-## Instructions
 
-- Install the latest (>= 0.10.2) PSCi.
-- Start PSCi with the `--port` option: `pulp psci -- --port 8080`
+## How to reproduce the issue
+
+```bash
+$ npm i
+$ bower i
+$ npm run repl
+```
+
 - Open `http://localhost:8080/`
+
+You should see error in your devtools console.
+
 - Evaluate expressions in PSCi:
 
     ```text
